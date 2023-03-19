@@ -98,7 +98,7 @@ function Header() {
               authorizationUrl="https://www.facebook.com/dialog/oauth"
               responseType="token"
               clientId="227028816453180"
-              redirectUri="http://localhost:3000"
+              redirectUri="https://gorhov.github.io/pokemon-app/"
               onSuccess={onSuccess}
               onFailure={onFailure}
             />
