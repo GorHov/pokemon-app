@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Box, Grid, MenuItem, TextField } from "@mui/material";
+import { Grid } from "@mui/material";
 import { useSelector, useDispatch } from "react-redux";
 import { Container, PokemonListContainer, PaginationContainer } from "./styles";
 import Pagination from "./Pagination";
