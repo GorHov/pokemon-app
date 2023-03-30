@@ -10,6 +10,8 @@ function Pagination({ count, currentPage, onPageChange }) {
     dispatch(onPageChange(value));
   };
 
+  console.log('count', count);
+
   return (
     <MuiPagination
       count={count}
